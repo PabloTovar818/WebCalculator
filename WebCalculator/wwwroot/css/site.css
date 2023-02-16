@@ -25,7 +25,7 @@ body {
     border: 3px solid black;
 }
 
-button {
+button, #calc-result {
     width: 100%;
 }
 
