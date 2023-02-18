@@ -8,33 +8,33 @@
     <h1 class="display-4">Welcome</h1>
     <div id="calc-canvas">
         <div id="output-area">
-            <input id="calc-result" class="output">
+            <input type="text" id="calc-result" class="output">
         </div>
         <table>
             <tbody>
                 <tr>
-                    <td><button type="button" id="num1">1</button></td>
-                    <td><button type="button" id="num2">2</button></td>
-                    <td><button type="button" id="num3">3</button></td>
-                    <td><button type="button" id="add-key">+</button></td>
+                    <td><button id="num1" value="1" onclick="displayButtonValue(this.value)">1</button></td>
+                    <td><button id="num2" value="2" onclick="displayButtonValue(this.value)">2</button></td>
+                    <td><button id="num3" value="3" onclick="displayButtonValue(this.value)">3</button></td>
+                    <td><button id="add-key" value="+" onclick="displayButtonValue(this.value)">+</button></td>
                 </tr>
                 <tr>
-                    <td><button type="button" id="num4">4</button></td>
-                    <td><button type="button" id="num5">5</button></td>
-                    <td><button type="button" id="num6">6</button></td>
-                    <td><button type="button" id="subtract-key">-</button></td>
+                    <td><button id="num4" value="4" onclick="displayButtonValue(this.value)">4</button></td>
+                    <td><button id="num5" value="5" onclick="displayButtonValue(this.value)">5</button></td>
+                    <td><button id="num6" value="6" onclick="displayButtonValue(this.value)">6</button></td>
+                    <td><button id="subtract-key" value="-" onclick="displayButtonValue(this.value)">-</button></td>
                 </tr>
                 <tr>
-                    <td><button type="button" id="num7">7</button></td>
-                    <td><button type="button" id="num8">8</button></td>
-                    <td><button type="button" id="num9">9</button></td>
-                    <td><button type="button" id="multiply-key">*</button></td>
+                    <td><button id="num7" value="7" onclick="displayButtonValue(this.value)">7</button></td>
+                    <td><button id="num8" value="8" onclick="displayButtonValue(this.value)">8</button></td>
+                    <td><button id="num9" value="9" onclick="displayButtonValue(this.value)">9</button></td>
+                    <td><button id="multiply-key" value="*" onclick="displayButtonValue(this.value)">*</button></td>
                 </tr>
                 <tr>
                     <td><button class="clear-button" type="button" id="clear-key">C</button></td>
-                    <td><button type="button" id="num0">0</button></td>
-                    <td><button type="button" id="equals-key">=</button></td>
-                    <td><button type="button" id="division-key">/</button></td>
+                    <td><button id="num0" value="0" onclick="displayButtonValue(this.value)">0</button></td>
+                    <td><button id="equals-key">=</button></td>
+                    <td><button id="division-key" value="/" onclick="displayButtonValue(this.value)">/</button></td>
                 </tr>
             </tbody>
         </table>
