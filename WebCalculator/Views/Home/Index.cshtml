@@ -7,10 +7,8 @@
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <div id="calc-canvas">
-        <div id="output-area">
-            <input type="text" id="calc-result" class="output">
-        </div>
-        <table>
+        <div id="display-area">0</div>
+        <table cellpadding="0" cellspacing="0">
             <tbody>
                 <tr>
                     <td><button id="num1" value="1" onclick="displayButtonValue(this.value)">1</button></td>
@@ -33,11 +31,10 @@
                 <tr>
                     <td><button class="clear-button" type="button" id="clear-key">C</button></td>
                     <td><button id="num0" value="0" onclick="displayButtonValue(this.value)">0</button></td>
-                    <td><button id="equals-key">=</button></td>
+                    <td><button id="equals-key" onclick="equals()">=</button></td>
                     <td><button id="division-key" value="/" onclick="displayButtonValue(this.value)">/</button></td>
                 </tr>
             </tbody>
         </table>
     </div>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
