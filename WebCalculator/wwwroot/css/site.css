@@ -33,6 +33,7 @@ body {
     text-align:right;
     padding-right: 8px;
     border: 1px solid gray;
+    overflow: scroll;
 }
 
 tr {
@@ -51,6 +52,14 @@ button {
     background-color: silver;
     width: 70px;
     height: 70px;
+}
+
+button:hover {
+    opacity: 80%;
+}
+
+button:active {
+    background-color: gray;
 }
 
 .clear-button {
